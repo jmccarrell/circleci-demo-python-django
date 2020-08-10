@@ -14,3 +14,7 @@ jobs:
 
     steps:
       - checkout  # checkout source code to working_directory
+      - run:
+          command: |
+            sudo pip install pipenv
+            pipenv sync -d
