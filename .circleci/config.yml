@@ -1,4 +1,5 @@
-version: 2
+version: 2.1
+
 jobs:
   build:  # required for runs that do not utilize workflows
     working_directory: ~/circleci-demo-python-django
